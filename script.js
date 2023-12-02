@@ -227,3 +227,6 @@ function makeid(n) {
     return str;
 }
 console.log(makeid(33));
+
+let z=prompt("enter function name ");
+alert(z);
