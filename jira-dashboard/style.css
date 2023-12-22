@@ -1,0 +1,51 @@
+.root{
+    display: flex;
+    gap: 20px;
+}
+
+.container{
+    width: 300px;
+    height: 400px;
+    background-color: #f7f8f9;
+    border-radius: 4px; 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.container h3{
+    color: #616f86;
+}
+
+.create-button{
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    /* justify-content: center; */
+    color: #182a4d;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.create-button:hover{
+    background-color:  grey;
+}
+.issue-input{
+    padding: 10px;
+    border: none;
+   resize: none;
+   border-radius: 4px;
+}
+.issue-input:focus{
+    outline: 2px solid #388bff;
+}
+
+.hide{
+    display: none;
+}

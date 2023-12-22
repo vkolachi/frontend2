@@ -1,0 +1,11 @@
+#container{
+    width: 300px;
+    height: 500px;
+    border: 2px solid grey;
+}
+
+#box{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
